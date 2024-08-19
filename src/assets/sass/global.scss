@@ -1,0 +1,246 @@
+.ck-content {
+  background: #f5f8fa !important;
+  border: 0 !important;
+}
+
+.ck-editor__top {
+  display: none;
+}
+
+.fs-0 {
+  font-size: 2.5rem;
+}
+
+.bagde-xl-child .badge {
+  font-size: 1.5rem;
+}
+
+.workorder-table thead th,
+.workorder-table tbody td {
+  padding: 10px !important;
+}
+
+.workorder-table thead th {
+  background-color: silver;
+}
+
+.workorder-field {
+  margin-bottom: 15px;
+}
+
+.workorder-field>label,
+.workorder-field>span {
+  padding: 4px 8px;
+}
+
+.workorder-field>label {
+  width: 100%;
+}
+
+.getWorkOrderNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .InProgress {
+    margin-left: 2px;
+    width: 35px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #C89A2C;
+  }
+
+  .Completed {
+    margin-left: 2px;
+    width: 35px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: green;
+  }
+}
+
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+  margin: 0 auto 5px auto;
+  padding: 3px 9px;
+  font-size: 0.85em;
+  width: 95%;
+}
+
+.rbc-show-more {
+  background-color: transparent;
+  z-index: 4;
+  font-weight: 500;
+  font-size: 0.85em;
+  width: 95%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.rbc-overlay {
+  .rbc-event-continues-after {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.rbc-calendar {
+  .rbc-month-view {
+    position: relative;
+    border: 1px solid #F4F4F4;
+    border-radius: 0.475rem;
+
+    .rbc-header {
+      padding: 0.75rem 0.5rem;
+    }
+
+  }
+
+}
+
+.rbc-day-bg+.rbc-day-bg {
+  border-left: 1px solid #F4F4F4;
+}
+
+.rbc-month-row+.rbc-month-row {
+  border-top: 1px solid #F4F4F4;
+}
+
+.rbc-header {
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.rbc-header+.rbc-header {
+  border-left: 1px solid #f4f4f4;
+}
+
+.rbc-button-link {
+  width: 95%;
+  margin: 5px auto 0 auto;
+  text-align: right;
+}
+
+.rbc-toolbar button {
+  border: 1px solid #f4f4f4;
+  transition: 0.3s all;
+
+  &:focus {
+    border-color: #f4f4f4;
+    background: #3174ad;
+    color: #fff;
+    transition: 0.3s all;
+  }
+
+  &:hover {
+    border-color: #f4f4f4;
+    background: #3174ad;
+    color: #fff;
+    transition: 0.3s all;
+  }
+}
+
+.rbc-overlay {
+  border-radius: 0.475rem;
+  overflow: hidden;
+
+  .rbc-overlay-header {
+    background: #3174ad;
+    color: #fff;
+  }
+}
+
+.WorkOrderDetailHeader {
+  background: #3174ad;
+  border-radius: 0.475rem;
+  margin-bottom: 30px;
+
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0;
+  }
+}
+
+.WorkOrderDetailRow {
+  .WorkOrderDetailCol {
+    padding-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #f4f4f4;
+
+    &:last-child() {
+      border-bottom: 0;
+    }
+
+    .WorkOrderDetailLabel {
+      font-size: 16px;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .WorkOrderDetailLink {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0;
+      color: #3f4254;
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-right: 6px;
+        font-size: 24px;
+        color: #3174ad;
+      }
+
+    }
+  }
+}
+
+#kt_header_user_menu_toggle {
+  .HeaderAccountUser {
+    background: #3174ad;
+    padding: 4px 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 0.475rem;
+
+    i {
+      color: #fff;
+      margin-left: 6px;
+    }
+
+  }
+
+}
+
+#kt_aside_menu {
+  .menu-item {
+    background: #3174ad;
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.WorkOrderListTable {
+  .WorkOrderTableContactBadge {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    &:last-child {
+      background: #C89A2C !important;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+export const GET_CLIENTS_LIST = "GET_CLIENTS_LIST";
+export const GET_CLIENT_DETAIL = "GET_CLIENT_DETAIL";
+export const DELETE_CLIENT = "DELETE_CLIENT";
+

@@ -1,0 +1,3 @@
+export const GET_ROLES_LIST = "GET_ROLES_LIST";
+export const GET_ROLE_DETAIL = "GET_ROLE_DETAIL";
+export const GET_ROLES_NAME_LIST = "GET_ROLES_NAME_LIST"

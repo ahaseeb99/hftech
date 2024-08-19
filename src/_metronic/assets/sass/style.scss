@@ -1,0 +1,37 @@
+//
+// Theme style
+//
+
+// Initialize
+@import "init";
+
+// Components
+@import "./core/components/components";
+@import "components/components";
+
+// Layout
+@import "./core/layout/base";
+@import "layout/layout";
+
+aside {
+  &.ReactQueryDevtools {
+    display: none;
+  }
+}
+.table-responsive > div{
+  width: 100% !important;
+  max-width: 100%;
+}
+.table-responsive > div > div{
+  margin-bottom: 20px;
+}
+.table-responsive > div > div > div{
+  padding: 0 !important;
+}
+
+.bi-person-fill {
+  font-size: 24px;
+  color: "#000";
+}
+
+
