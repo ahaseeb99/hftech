@@ -1,4 +1,4 @@
-# HF Tech [app-dev.hftechaz.com] by Probdone [https://probdone.com]
+# HF Tech [hftechaz.com - app-dev.hftechaz.com] by Probdone [https://probdone.com]
 HF Tech is a specialized platform offering a broad range of Environmental Field Services and Environmental Health and Safety (EHS) consulting. Built using ReactJS, this project is designed to provide comprehensive health and safety services to businesses and organizations.
 
 **Key Features**:
